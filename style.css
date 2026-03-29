@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+ font-family: "Pacifico", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+border: 1px solid white;
+background-image: url(totoro_3.jfif);
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  width: 600px;
+  height: 300px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.timer {
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  color: rgb(253, 255, 253);
+}
+.buttons
+{
+    display: flex;
+  justify-content: flex-start;  
+    
+}
+.buttons button {
+   font-family: "Pacifico", cursive;
+  margin: 5px;
+  padding: 5px 15px;
+    border: 1px solid white;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.158);
+  border-radius: 8px;
+  transition: 0.3s;
+  color: rgb(255, 255, 255);
+}
+
+.buttons button:hover {
+background: rgba(92, 91, 91, 0.158);
+
+}
